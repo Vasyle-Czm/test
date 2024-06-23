@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="login" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.Controller">
+   <children>
+      <AnchorPane fx:id="ap" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label fx:id="logareLabel" alignment="CENTER" layoutY="17.0" prefHeight="110.0" prefWidth="600.0" text="Logare" textAlignment="CENTER">
+               <font>
+                  <Font size="56.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Label>
+            <ImageView fx:id="companyLogo" fitHeight="67.0" fitWidth="71.0" layoutX="515.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextField fx:id="loginLogin" layoutX="226.0" layoutY="25.0" promptText="Email sau user name" style="-fx-background-color: TRANSPARENT;">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding></TextField>
+            <PasswordField fx:id="passwordLogin" layoutX="226.0" layoutY="60.0" promptText="Parola" style="-fx-background-color: TRANSPARENT;">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding></PasswordField>
+            <Label fx:id="loginMessage" layoutX="234.0" layoutY="101.0" style="-fx-text-fill: transparent;" text="Parola sau Login gresit" textFill="RED">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Label>
+            <Label fx:id="activationMessage" layoutX="186.0" layoutY="106.0" style="-fx-text-fill: transparent;" text="Contul nu e activat, adresațivă la un manager !" textFill="RED" />
+            <Label fx:id="accountDezactivationMessage" layoutX="210.0" layoutY="106.0" style="-fx-text-fill: TRANSPARENT;" text="Contul a fost dezactivat cu succes" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="loginBtn" layoutX="273.0" layoutY="49.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: TRANSPARENT;" text="Login">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <Button fx:id="newAcc" layoutX="231.0" layoutY="1.0" mnemonicParsing="false" onAction="#toCreateNewAccount" prefHeight="27.0" prefWidth="130.0" style="-fx-background-color: transparent;" text="Creaza cont nou" textFill="#3c00ff" textOverrun="CLIP">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

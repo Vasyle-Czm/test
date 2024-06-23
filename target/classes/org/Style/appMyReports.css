@@ -1,0 +1,93 @@
+.root{
+    -fx-background-color: #1e1e1e;
+}
+
+.label {
+    -fx-text-fill: #ffd700; 
+}
+
+.button {
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #ffd700; 
+    -fx-font-size: 14px;
+    -fx-border-color: #ffd700; 
+    -fx-border-radius: 20px; 
+    -fx-border-width: 2px; 
+    -fx-font-weight: bold; 
+}
+
+.button:hover {
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #868686; 
+}
+
+.list-view {
+    -fx-background-color: #3d3d3d; 
+    -fx-text-fill: #ffd700; 
+    -fx-font-size: 14px;
+    -fx-padding: 10px; 
+}
+.list-cell {
+    -fx-background-color: transparent; 
+    -fx-text-fill: #ffd700;
+    -fx-padding: 5px 10px; 
+}
+.list-view .list-cell:selected {
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #1e1e1e; 
+}
+.list-view .list-cell:hover {
+    -fx-background-color: #333333; 
+    -fx-text-fill: #ffffff;
+}
+
+#aPane {
+    -fx-background-color: #1e1e1e; /* Setează culoarea de fundal a TextArea */
+    -fx-text-fill: #ffffff; /* Culorează textul cu alb */
+}
+
+.split-pane {
+    -fx-background-color: #1e1e1e; 
+}
+
+.split-pane > .split-pane-divider {
+    -fx-background-color: #ffcc00; /* Setează culoarea divizorului */
+    -fx-border-color: transparent; /* Elimină marginea divizorului */
+}
+
+.split-pane > .split-pane-divider:hover {
+    -fx-background-color: #f0c24e; /* Culorează divizorul la hover */
+}
+
+.split-pane-divider {
+    -fx-background-color: #ffd700; 
+    -fx-border-color: #000000; 
+    -fx-border-width: 1; 
+}
+
+.split-pane-divider:hover {
+    -fx-background-color: #f0c24e; 
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: #333333; 
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: #333333; 
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #4d4d4d; 
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0;
+}
+.scroll-bar .increment-button:hover,
+.scroll-bar .decrement-button:hover {
+    -fx-background-color: #666666; /* culoare de fundal a butoanelor de derulare la hover */
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap');
+
+.root{
+    -fx-background-color: #1e1e1e;
+}
+
+.label {
+    -fx-font-family: "Playwrite ES", cursive;
+    -fx-font-style: normal;
+    -fx-text-fill: #ffd700; 
+}

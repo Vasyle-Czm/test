@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.Controller">
+  <children>
+      <HBox prefHeight="13.0" prefWidth="640.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#backToApp" style="-fx-background-color: transparent;" text="Înapoi" />
+         </children>
+      </HBox>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TextField fx:id="reportName" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="163.0" promptText="Nume Raport" style="-fx-background-color: transparent;" />
+            <TextField fx:id="reportPrice" layoutX="196.0" layoutY="14.0" prefHeight="25.0" prefWidth="101.0" promptText="Consum  €" style="-fx-background-color: transparent;" />
+            <Button layoutX="567.0" layoutY="328.0" mnemonicParsing="false" onAction="#newReport" style="-fx-background-color: transparent;" text="Confirm" />
+            <Button layoutX="14.0" layoutY="208.0" mnemonicParsing="false" onAction="#singeFileChooser" prefHeight="25.0" prefWidth="205.0" style="-fx-background-color: transparent;" text="Introduceți poza chitanței" />
+            <Label fx:id="fileInputMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="-59.0" layoutY="242.0" prefHeight="20.0" prefWidth="351.0" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="reportSuccess" layoutX="198.0" layoutY="274.0" style="-fx-text-fill: transparent;" text="Raport salvat cu succes" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="priceError" layoutX="320.0" layoutY="18.0" text="Nu sunt suficienți bani în buget" textFill="RED" visible="false" />
+            <Label fx:id="notnullError" layoutX="166.0" layoutY="274.0" text="Trebuie să completați formularul până la capăt&#10;pentru a continua" textAlignment="CENTER" textFill="RED" visible="false">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="reportDesc" layoutX="15.0" layoutY="62.0" prefHeight="133.0" prefWidth="612.0" promptText="Descriere" style="-fx-background-color: BLACK;" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap');
+
+.root{
+    -fx-background-color: #1e1e1e;
+}
+
+#logareLabel{
+    -fx-font-family: "Playwrite ES", cursive;
+    -fx-font-style: normal;
+}
+
+.label {
+    -fx-text-fill: #ffd700; 
+}
+
+#loginBtn {
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #ffd700; 
+    -fx-font-size: 14px;
+    -fx-border-color: #ffd700; 
+    -fx-border-radius: 20px; 
+    -fx-border-width: 2px; 
+    -fx-font-weight: bold; 
+}
+
+#newAcc {
+    /* -fx-background-color: #ffd700; */
+    -fx-text-fill: #ffd700; 
+    /* -fx-font-size: 14px;
+    -fx-padding: 8px 16px; 
+    -fx-border-radius: 4px; 
+    -fx-border-color: #ffd700; 
+    -fx-border-width: 2px; 
+    -fx-cursor: hand;  */
+}
+
+.text-field {
+    -fx-background-color: #1e1e1e, #1e1e1e, linear-gradient(from 0% 0% to 0% 100%, #333333 0%, #1e1e1e 100%); 
+    -fx-text-fill: #ffd700; 
+    -fx-border-color: #ffd700; 
+    -fx-border-radius: 20px; 
+    -fx-border-width: 2px; 
+}
+
+
+.button:hover {
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #868686; 
+}
+#newAcc:hover{
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #868686; 
+}
+
+
+
+
+

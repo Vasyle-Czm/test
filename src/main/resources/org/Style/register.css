@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap');
+
+.root{
+    -fx-background-color: #1e1e1e;
+}
+
+.label{
+    -fx-text-fill: #ffd700;
+    
+}
+
+#mainLabel{
+    -fx-font-family: "Playwrite ES", cursive;
+    -fx-font-style: normal;
+}
+
+.button {
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #ffd700; 
+    -fx-font-size: 14px;
+    -fx-border-color: #ffd700; 
+    -fx-border-radius: 20px; 
+    -fx-border-width: 2px; 
+    -fx-font-weight: bold; 
+}
+
+.button:hover {
+    -fx-background-color: #ffd700; 
+    -fx-text-fill: #868686; 
+}
+
+.text-field {
+    -fx-background-color: #1e1e1e, #1e1e1e, linear-gradient(from 0% 0% to 0% 100%, #333333 0%, #1e1e1e 100%); 
+    -fx-text-fill: #ffd700; 
+    -fx-border-color: #ffd700; 
+    -fx-border-radius: 20px; 
+    -fx-border-width: 2px; 
+}
+
+/* Stilizare pentru ChoiceBox */
+.choice-box {
+    -fx-background-color: #1e1e1e; /* culoare de fundal neagră */
+    -fx-border-color: #ffd700; /* culoare border galben închis */
+    -fx-border-radius: 4px; /* rază border */
+    -fx-border-width: 1px; /* lățime border */
+}
+
+/* Stilizare pentru butonul dropdown */
+.arrow-button {
+    -fx-background-color: transparent; /* fundal transparent */
+    -fx-shape: ""; /* forma goală pentru a elimina săgeata implicită */
+}
+
+/* Stilizare pentru elementele din ChoiceBox */
+.choice-box .menu-item {
+    -fx-background-color: #1e1e1e; /* culoare de fundal pentru elementele din meniu */
+    -fx-text-fill: #ffd700; /* culoare text galben închis */
+}
+
+/* Stilizare pentru elementele din meniu la hover */
+.choice-box .menu-item:hover {
+    -fx-background-color: #333333; /* culoare de fundal la hover */
+}
+
+/* Stilizare pentru elementul selectat */
+.choice-box .menu-item:selected {
+    -fx-background-color: #ffd700; /* culoare de fundal pentru elementul selectat */
+    -fx-text-fill: #1e1e1e; /* culoare text pentru elementul selectat */
+}

@@ -1,0 +1,13 @@
+vasile@gmail.com Vasyle_ Cozma Vasile 12345678 10-06-2024/12:03 true 1 0
+cozma@gmail.com Igor-CZM Cozma Igor 12345 10-10-2022/10:11 false 0 1
+gabriela@yahoo.com Gabriela_Gabi Popescu Gabriela parola123 15-05-2023/09:30 true 1 2
+alexandra@hotmail.com Alexandra_Alex Smith Alexandra 98765432 20-08-2024/15:45 true 2 3
+ionut@yahoo.com Ionut_2001 Ionescu Ionut 1q2w3e4r 03-11-2022/18:20 false 0 4
+andrei@gmail.com Andrei.AND Popescu Andrei qwerty 25-09-2023/14:55 true 1 5
+elena@hotmail.com Elena.Ele Radu Elena 13579 07-12-2024/11:10 false 0 6
+cristina@yahoo.com Cristina.Cris Popa Cristina cristina12 30-07-2022/08:40 false 0 7
+maria@hotmail.com Maria.Mary Ionescu Maria mary123 12-04-2023/17:25 false 0 8
+alexandru@gmail.com Alexandru.Alexandru Stan Alexandru alex1234 05-06-2024/10:05 false 0 9
+florin@yahoo.com Florin_Florescu Florin Florescu password1234 18-09-2022/13:15 false 0 0
+alina@hotmail.com Alina_Ally Popescu Alina iloveyou 22-11-2023/09:50 true 1 1 
+1 1 1 1 1 20-06-2024|14:58 false 0 4
